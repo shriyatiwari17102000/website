@@ -1,0 +1,60 @@
+.nav_div {
+  width: 1440px;
+  flex-shrink: 0;
+  background-color: #fff !important;
+  height: 104px;
+}
+.nav_icon_div {
+  color: #2d3e51;
+  /* font-family: Inter; */
+  font-size: 19.411px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* margin-top: 20px; */
+  display: flex;
+}
+.nav_img {
+  width: 37px;
+  height: 37px;
+}
+.nav_para {
+  margin-top: 14px;
+  margin-left: -6px;
+}
+.nav_link {
+  color: #000 !important;
+  /* font-family: Inter; */
+  font-size: 15px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  margin-left: 35px !important;
+}
+.border_right {
+  border-right: 1px solid #b7b7b7;
+  margin-left: 25px;
+  margin-right: 25px;
+  height: 42px;
+  width: 1px;
+}
+.nav_btn {
+  display: flex;
+  width: 162px;
+  height: 51px;
+  padding: 23px 37px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 35px;
+}

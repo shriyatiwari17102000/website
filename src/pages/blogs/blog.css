@@ -1,0 +1,221 @@
+.blog_head {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.blog_head1 {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.blog_card {
+  width: 657px;
+  border-radius: 10px;
+  background: #dfddff;
+  height: 228px;
+  border: none;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.blog_card_bdy {
+  padding: 29px;
+}
+.blog_title {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.blog_para {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.blog_btn {
+  display: flex;
+  width: 105px;
+  height: 34px;
+  padding: 11px 28px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 123px;
+  border: none;
+  margin-top: 54px;
+}
+.blog_img {
+  width: 206px;
+  height: 136px;
+  flex-shrink: 0;
+  margin-left: 15rem;
+  margin-top: -17px;
+}
+.blog_div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 47px;
+  margin-top: 75px;
+}
+.blog_top_btn {
+  width: 237px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 100px;
+  margin-top: 10px;
+}
+.blog_top_div {
+  border-radius: 5px;
+  background: #ffe1dd;
+  height: 189px;
+  /* width: 1518px; */
+  margin-left: -150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 66px;
+}
+.blog_top_head {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 849.375px;
+}
+.blog_top_btn2 {
+  display: flex;
+  width: 302.625px;
+  height: 64px;
+  padding: 15px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 57px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #fff;
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 157px;
+  margin-top: 10px;
+}
+/* frequentlyasked section */
+.dropdown_div {
+  width: 668px;
+  height: 53px;
+  max-height: 53px;
+
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+  background: #dfddff;
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 4px;
+  padding-left: 30px;
+  text-align: left;
+  &:hover {
+    background: #dfddff;
+    border: none !important;
+    color: #000;
+  }
+}
+.btn:hover {
+  background: #dfddff !important;
+  border: none !important;
+  color: #000 !important;
+}
+.dropdown-toggle::after {
+  position: absolute !important;
+  right: 41px !important;
+  top: 25px;
+}
+.dropdown_main {
+  margin-top: 43px;
+}
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  background: #dfddff !important;
+  border: none !important;
+  color: #000 !important;
+}
+.freq_img {
+  width: 506px;
+  height: 627px;
+  margin-left: 102px;
+}
+.btm_freq {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-right: 92px;
+}
+.btm_freq_para {
+  color: #7d7d7d;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+.btm_freq_span {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+}

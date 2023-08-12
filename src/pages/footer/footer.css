@@ -1,0 +1,107 @@
+.foot_head {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 11.075px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+  margin-left: 29px;
+}
+.foot_title {
+  color: #a4a4a4;
+  /* font-family: Inter; */
+  font-size: 10.3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.foot_li {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 10.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+  width: 113px;
+}
+.foot_link {
+  color: #056fb1;
+  /* font-family: Inter; */
+  font-size: 10.3px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  /* margin-bottom: 20px; */
+}
+.foot_logo_img {
+  width: 28.361px;
+  height: 28.361px;
+  flex-shrink: 0;
+}
+.foot_logo_para {
+  color: #2d3e51;
+  /* font-family: Inter; */
+  font-size: 14.879px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 11px;
+  margin-left: -3px;
+}
+.foot_para {
+  width: 199.346px;
+  color: #000;
+  font-family: Inter;
+  font-size: 11.075px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+}
+/* footer_top */
+.footer_top {
+  height: 350px;
+  border-radius: 5px;
+  background: #e5e3ff;
+  margin-top: 90px;
+}
+.foottop_head {
+  width: 1354.51px;
+  color: #000;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  /* align-items: center; */
+  display: flex;
+  padding: 83px;
+  padding-left: 208px;
+}
+.foottop_btn {
+  display: flex;
+  width: 269.375px;
+  height: 64px;
+  padding: 15px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 57px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-top: -43px;
+  margin-left: 40rem;
+}

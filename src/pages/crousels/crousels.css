@@ -1,0 +1,232 @@
+.sucess_title {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: left;
+}
+.success_head {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  /* margin-bottom: 75px; */
+}
+
+.image-slider {
+  position: relative;
+  /* width: 100%; */
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  /* margin-left: 88px; */
+}
+.swiper-container {
+  width: 100%;
+  height: auto;
+  /* margin-left: -72px; */
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 14.1rem;
+}
+.video-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh; /* Adjust the height as needed */
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    lightgray 50% / cover no-repeat;
+  border-radius: 26px;
+  margin-top: 4.3rem;
+}
+
+.video-slide video {
+  width: 280.2px !important;
+  height: 436.8px !important;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.active-slide {
+  width: 397px !important;
+  height: 587px !important;
+  flex-shrink: 0;
+  border-radius: 39px;
+
+  margin-left: -64px !important;
+  /* margin-right: 10px !important; */
+}
+
+/* .swiper-wrapper {
+  margin-left: 23rem;
+} */
+.swiper-button-prev,
+.swiper-button-next {
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+  background: #e2f6ff;
+  border: none;
+  margin-right: 18px;
+}
+
+.success_img {
+  width: 310.2px !important;
+  height: 436.8px !important;
+  /* margin-left: 58px !important; */
+}
+
+.active-slide img {
+  width: 357px !important;
+  height: 557px !important;
+  flex-shrink: 0;
+  border-radius: 39px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    50% / cover no-repeat;
+  /* margin-left: -158px !important; */
+  /* margin-right: 40px !important; */
+}
+.active-slide .mobile_img {
+  margin-bottom: -63px !important;
+  position: relative !important;
+  z-index: 9999 !important;
+  height: auto !important;
+  width: auto !important;
+}
+/* .swiper-slide {
+  margin-right: -2px !important;
+} */
+
+/* -------------------find card--------------------- */
+
+.find_main_div {
+  background: #fff4e2;
+  height: 782px;
+  margin-top: 90px;
+}
+.findcard_bdy {
+  text-align: left;
+  padding: 26px;
+}
+.findcard_title {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.findcard_para {
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 208px;
+  /* margin-top: -16px; */
+}
+.findcard_para_img {
+  margin-right: 10px;
+  margin-top: -6px;
+}
+.findcard_price {
+  color: #000;
+  /* font-family: Inter; */
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.f_p {
+  margin-top: 21px;
+  margin-left: 7px;
+}
+
+.find_para {
+  color: #009f23;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 11.63px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  padding-top: 7px;
+}
+.find_para_div {
+  height: 31px;
+  border-radius: 50px;
+  background: #f6f6f6;
+  margin-top: 22px;
+}
+.findcard_link {
+  color: #000;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+  margin-top: 21px;
+}
+.findcard_btn {
+  display: flex;
+  width: 221px;
+  padding: 15px 17px;
+  justify-content: center;
+  align-items: center;
+  gap: 57px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.findcard_footer {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom: -28px;
+}
+.prev_btn_find,
+.prev_btn_find {
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+  background: #000;
+  border: none;
+  margin-right: 18px;
+  color: #fff;
+}
+.success_head2 {
+  width: 628px;
+  text-align: left;
+}
